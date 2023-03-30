@@ -1,5 +1,5 @@
 {
-  "name": "react-native-zebra-scanner",
+  "name": "react-native-zebra-scanner-v5",
   "version": "0.1.0",
   "description": "Lite Zebra scanner implementation for react-native",
   "main": "lib/commonjs/index.js",
