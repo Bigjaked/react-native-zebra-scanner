@@ -4,4 +4,7 @@
     <application>
         <uses-library android:name="com.symbol.emdk" android:required="false"/>
     </application>
+    <queries>
+        <package android:name="com.symbol.emdk.emdkservice" />
+    </queries>
 </manifest>

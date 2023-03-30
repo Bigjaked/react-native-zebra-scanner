@@ -64,7 +64,6 @@ repositories {
         url = "$rootDir/../node_modules/react-native/android"
     }
     google()
-    jcenter()
 }
 
 
@@ -72,8 +71,8 @@ dependencies {
     // For < 0.71, this will be from the local maven repo
     // For > 0.71, this will be replaced by `com.facebook.react:react-android:$version` by react gradle plugin
     //noinspection GradleDynamicVersion
-    implementation "com.facebook.react:react-native:+"
-    compileOnly 'com.symbol:emdk:9.1.1'
+    implementation "com.facebook.react:react-native"
+    compileOnly 'com.symbol:emdk:11.0.129'
 }
 
 if (isNewArchitectureEnabled()) {
