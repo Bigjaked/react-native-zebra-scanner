@@ -63,11 +63,8 @@ repositories {
         // All of React Native (package.jsJS, Obj-C sources, Android binaries) is installed from npm
         url = "$rootDir/../node_modules/react-native/android"
     }
-    maven {
-        url = "https://zebratech.jfrog.io/artifactory/EMDK-Android/"
-    }
-    jcenter()
     google()
+    jcenter()
 }
 
 
