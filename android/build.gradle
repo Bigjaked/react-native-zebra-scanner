@@ -2,10 +2,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = "https://zebratech.jfrog.io/artifactory/EMDK-Android/"
-        }
-        jcenter()
     }
 
     dependencies {
@@ -64,6 +60,7 @@ repositories {
         url = "$rootDir/../node_modules/react-native/android"
     }
     google()
+    jcenter()
 }
 
 
